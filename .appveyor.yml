@@ -10,10 +10,9 @@ install:
   - npx puppeteer install
 before_test:
   - npm run start &
-test_script:
-  - npx wait-on http://localhost:9000 && npm test
 build: off
 test_script: 
   - npm run lint
   - npm test
   - npm run e2e
+  - npx wait-on http://localhost:9000 && npm test
