@@ -6,6 +6,8 @@ branches:
 cache: node_modules
 install:
   - npm install
+  - npm ci
+  - npx puppeteer install
 build: off
 test_script: 
   - npm run lint
