@@ -1,0 +1,119 @@
+ul, li {
+  padding: 0;
+  list-style-type: none;
+}
+
+.cards-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cards-item {
+  width: 50px;
+  height: 45px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.visa {
+  background-image: url(../img/icons8-виза-48_filter.png);
+}
+
+.visa.active {
+  background-image: url(../img/icons8-виза-48.png);
+}
+
+.mastercard {
+  background-image: url(../img/icons8-мастеркард-48_filter.png);
+}
+
+.mastercard.active {
+  background-image: url(../img/icons8-мастеркард-48.png);
+}
+
+.american-express {
+  background-image: url(../img/icons8-амекс-48_filter.png);
+}
+
+.american-express.active {
+  background-image: url(../img/icons8-амекс-48.png);
+}
+
+.diners-club {
+  background-image: url(../img/icons8-diners-club-48_filter.png);
+}
+
+.diners-club.active {
+  background-image: url(../img/icons8-diners-club-48.png);
+}
+
+.mir {
+  background-image: url(../img/icons8-мир-48_filter.png);
+}
+
+.mir.active {
+  background-image: url(../img/icons8-мир-48.png);
+}
+
+.jcb {
+  background-image: url(../img/icons8-jcb-48_filter.png);
+}
+
+.jcb.active {
+  background-image: url(../img/icons8-jcb-48.png);
+}
+
+.discover {
+  background-image: url(../img/icons8-discover-48_filter.png);
+}
+
+.discover.active {
+  background-image: url(../img/icons8-discover-48.png);
+}
+
+.input-card-number-form {
+  display: flex;
+  gap: 10px;
+}
+
+.input-card-number {
+  padding: 10px;
+  width: 300px;
+
+  font-family: sans-serif;
+  font-size: 18px;
+
+  color: rgb(109, 109, 109);
+  border: 1px solid rgb(185, 183, 183);
+  border-radius: 3px;
+}
+
+.input-card-number:focus {
+  outline: 2px solid #84e95f;
+}
+
+.input-card-number-button {
+  width: 150px;
+  height: 100%;
+  padding: 15px;
+
+  border: none;
+
+  color: white;
+  border-radius: 3px;
+  background-color: #84e95f;
+}
+
+.input-card-number-button:hover {
+  cursor: pointer;
+  background-color: #63e832;
+}
+
+.card-validity-message {
+  margin-top: 10px;
+
+  font-family: sans-serif;
+  font-size: 20px;
+}
