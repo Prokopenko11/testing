@@ -6,7 +6,7 @@ describe('Card validation tests', () => {
 
   beforeEach(async () => {
     browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       slowMo: 100,
       devtools: true,
     });
